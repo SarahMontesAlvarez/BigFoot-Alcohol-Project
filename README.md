@@ -52,27 +52,6 @@ Create visualizatoins to view correlation and signifigance
 
 Create an interactive dashboard with Tableau Public
 
-### Conclusion & Insights:
-Correlation Coefficient: 0.06440976464219382
-P-Value: 0.21090463639065118
-The correlation is NOT statistically significant.
-
-Although there did not appear to be a strong correlation between alcohol consumption patterns over the course of the years and bigfoot sightings, this varied widely by state (see bar chart). These states show a strong positive correlation, implying that as alcohol consumption increases, so do Bigfoot sightings.
-
-North Dakota: 1.000 (perfect correlation)
-South Dakota: 0.865
-Illinois: 0.798
-Massachusetts: 0.668
-North Carolina: 0.634
-
-The Dakotas and Illinois show the highest positive correlations, potentially due to more rural areas where Bigfoot sightings might be more common (Norht Carolina could also be considered higher correlation with a large rural population).
-
-Some states (Once again like North Dakota and South Dakota) show consistently high correlations across years.
-Other states, like Illinois and Massachusetts, have more fluctuation, suggesting variations in either alcohol consumption patterns or Bigfoot sighting reports.
-The overall trend suggests that while correlations are high in some states, they are not always stable over time.
-
-Data Gaps: Some states lack correlation data, meaning further analysis might be needed.
-
 ## Getting Started
 
 To run this project, follow these steps:
@@ -104,3 +83,29 @@ Virtual Environment Commands
 | Activate | `source venv/bin/activate` | `source venv/Scripts/activate` |
 | Install | `pip install -r requirements.txt` | `pip install -r requirements.txt` |
 | Deactivate | `deactivate` | `deactivate` |
+
+## Conclusion & Insights:
+
+#### Correlation Coefficient: 0.06440976464219382
+
+#### P-Value: 0.21090463639065118
+
+The correlation is NOT statistically significant.
+
+Although there did not appear to be a strong correlation between alcohol consumption patterns over the course of the years and bigfoot sightings, this varied widely by state (see bar chart). 
+
+These states show a strong positive correlation, implying that as alcohol consumption increases, so do Bigfoot sightings:
+
+North Dakota: 1.000 (perfect correlation)
+South Dakota: 0.865
+Illinois: 0.798
+Massachusetts: 0.668
+North Carolina: 0.634
+
+The Dakotas and Illinois show the highest positive correlations, potentially due to more rural areas where Bigfoot sightings might be more common (Norht Carolina could also be considered higher correlation with a large rural population).
+
+Some states (Once again like North Dakota and South Dakota) show consistently high correlations across years.
+Other states, like Illinois and Massachusetts, have more fluctuation, suggesting variations in either alcohol consumption patterns or Bigfoot sighting reports.
+The overall trend suggests that while correlations are high in some states, they are not always stable over time.
+
+*Data Gaps: Some states lack correlation data, meaning further analysis might be needed.
