@@ -73,3 +73,34 @@ The overall trend suggests that while correlations are high in some states, they
 
 Data Gaps: Some states lack correlation data, meaning further analysis might be needed.
 
+## Getting Started
+
+To run this project, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/SarahMontesAlvarez/BigFoot-Alcohol-Project.git`
+2. Install the necessary dependencies: `pip install -r requirements.txt`
+3. Explore the Jupyter notebooks or scripts in the respective folders.
+
+## Dependencies
+
+Pandas
+MatPlotLib
+Seaborn
+
+###  Virtual Environment Instructions
+---
+1. After you have cloned the repo to your machine, navigate to the project 
+folder in GitBash/Terminal.
+1. Create a virtual environment in the project folder. 
+1. Activate the virtual environment.
+1. Install the required packages. 
+1. When you are done working on your repo, deactivate the virtual environment.
+
+Virtual Environment Commands
+
+| Command | Linux/Mac | GitBash |
+|---------|-----------|---------|
+| Create | `python3 -m venv venv` | `python -m venv venv` |
+| Activate | `source venv/bin/activate` | `source venv/Scripts/activate` |
+| Install | `pip install -r requirements.txt` | `pip install -r requirements.txt` |
+| Deactivate | `deactivate` | `deactivate` |
