@@ -40,7 +40,7 @@ Create visualizatoins to view correlation and signifigance
 
 ### 8. Tableau Dashboard Design (Time Permitting):
 
-Create an interactive dashboard with:
+Create an interactive dashboard with Tableau Public
 
 
 ### 9. Conclusion & Insights:
