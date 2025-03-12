@@ -2,14 +2,14 @@
 CodeKY Data Science Capstone Project
 
 # Project Title:
-"Spirits and Sasquatch: Analyzing Alcohol Consumption and Bigfoot Sightings in the U.S."
+Spirits and Sasquatch: Analyzing Alcohol Consumption and Bigfoot Sightings in the U.S.
 
 ### 1. Objective:
 Investigate whether there is a statistical relationship between alcohol consumption and reported Bigfoot sightings across U.S. states. The analysis will include data cleaning, exploratory data analysis, statistical correlation, and visualization in Tableau.
 
 ### 2. Tools & Technologies:
 SQL (for data extraction and transformation)
-Python (for data cleaning, statistical analysis, and visualization), Pandas, NumPy, Matplotlib
+Python (for data cleaning, statistical analysis, and visualization), Pandas, NumPy, Matplotlib, Seaborn
 Tableau (for interactive visualizations and dashboards)
 
 ### 3. Data Sources:
@@ -32,28 +32,20 @@ Handle missing/null values.
 Convert dates to a uniform format.
 Standardize state names for accurate joins.
 Remove outliers (e.g., duplicate sightings, extreme alcohol values).
-Categorize Bigfoot sightings (e.g., by season, rural vs. urban areas).
 
 ### 6. Exploratory Data Analysis (EDA):
-Bigfoot Sightings Analysis:
-Map sightings using geospatial visualizations (Seaborn, Folium).
-Identify peak years/seasons for sightings.
-Alcohol Consumption Trends:
-Visualize alcohol consumption per state over time.
-Compare beer, wine, and spirits consumption.
-Comparing Sightings & Alcohol:
-Identify high-alcohol vs. high-sighting states.
+Calcualte correlation and statistical signifigance per state and year and overall
+Create visualizatoins to view correlation and signifigance
 
 
 ### 8. Tableau Dashboard Design (Time Permitting):
 
 Create an interactive dashboard with:
 
-Choropleth maps (Bigfoot sightings and alcohol consumption per state).
-Line charts (Sightings | Alcohol consumption trends over time).
-Scatter plots (Correlation between sightings and alcohol).
-Filter options (State selection, year range, alcohol type).
+
 9. Conclusion & Insights:
-Determine if alcohol consumption has a statistically significant effect on Bigfoot sightings.
-Discuss alternative explanations and possible confounding factors.
-Suggest next steps, such as finer geographic analysis or sentiment analysis of sighting reports.
+Correlation Coefficient: 0.06440976464219382
+P-Value: 0.21090463639065118
+The correlation is NOT statistically significant.
+
+Although there did not appear to be a strong correlation between alcohol consumption patterns over the course of the years and bigfoot sightings, this varied widely by state (see bar chart).
